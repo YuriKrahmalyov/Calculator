@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="MainForm">
+        <div className="ContentRow">
+          <button className="Button">C</button>
+          <h className="ResultField">XXL</h>
+        </div>
+        <div className="ContentRow">
+          <button className="Button">7</button>
+          <button className="Button">8</button>
+          <button className="Button">9</button>
+          <button className="Button">+</button>
+        </div>
+        <div className="ContentRow">
+          <button className="Button">4</button>
+          <button className="Button">5</button>
+          <button className="Button">6</button>
+          <button className="Button">-</button>
+        </div>
+        <div className="ContentRow">
+          <button className="Button">1</button>
+          <button className="Button">2</button>
+          <button className="Button">3</button>
+          <button className="Button">*</button>
+        </div>
+        <div className="ContentRow">
+          <button className="Button">0</button>
+          <button className="Button">.</button>
+          <button className="Button">=</button>
+          <button className="Button">/</button>
+        </div>
+
+      </div>
     </div>
   );
 }
